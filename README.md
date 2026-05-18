@@ -93,3 +93,21 @@ prompt
 【知识内容】
 （把你的播客脚本粘贴在这里）
 ```
+
+
+处方一：极简哲理与动物童话:《男孩、鼹鼠、狐狸和马》 (The Boy, the Mole, the Fox and the Horse)
+
+处方二：乡野微风与生命奇迹:《万物有灵且美》 (All Creatures Great and Small) 系列
+
+处方三：温柔的心理学童话:《蛤蟆先生去看心理医生》 (Counseling for Toads: A Psychological Adventure)
+
+
+```bash
+ffmpeg -i 2026-05-14_11-15-35.mp4 \ 
+      -filter_complex amix=inputs=2:duration=longest \ 
+      wanwu-01-03.mp3
+```
+
+ffmpeg -i changzi_3_你坐在马桶上的姿势很可能不正确.mp4 -filter_complex amix=inputs=2:duration=longest changzi_3_你坐在马桶上的姿势很可能不正确.mp3
+
+
