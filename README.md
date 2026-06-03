@@ -101,7 +101,7 @@ prompt
 
 处方三：温柔的心理学童话:《蛤蟆先生去看心理医生》 (Counseling for Toads: A Psychological Adventure)
 
-
+输出双声道带背景音乐
 ```bash
 ffmpeg -i 2026-05-14_11-15-35.mp4 \ 
       -filter_complex amix=inputs=2:duration=longest \ 
@@ -110,4 +110,6 @@ ffmpeg -i 2026-05-14_11-15-35.mp4 \
 
 ffmpeg -i changzi_3_你坐在马桶上的姿势很可能不正确.mp4 -filter_complex amix=inputs=2:duration=longest changzi_3_你坐在马桶上的姿势很可能不正确.mp3
 
+ffmpeg -i changzi_16_便便外刊.mp4 -filter_complex amix=inputs=2:duration=longest  changzi_16_便便外刊.mp3
 
+ffmpeg -i  changzi_17_⾷物在我们体内的旅程.mp4 -filter_complex amix=inputs=2:duration=longest  changzi_17_⾷物在我们体内的旅程.mp3

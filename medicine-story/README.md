@@ -41,7 +41,7 @@ Atlas Obscura（atlasobscura.com）—— 搜索 "anatomy history"，有很多�
 这种每天一个小故事的方式，时间长了她对医学会有真实的好感，说不定还能理解你平时学习的辛苦 😄
 
 
-
+## 肠子的小心思
 - /home/jiazet/projects_tmp/github_note-zetian-jia-main/storys/01_reading/肠子的小心思.pdf
 
-
+### 便便外刊
