@@ -113,3 +113,9 @@ ffmpeg -i changzi_3_你坐在马桶上的姿势很可能不正确.mp4 -filter_co
 ffmpeg -i changzi_16_便便外刊.mp4 -filter_complex amix=inputs=2:duration=longest  changzi_16_便便外刊.mp3
 
 ffmpeg -i  changzi_17_⾷物在我们体内的旅程.mp4 -filter_complex amix=inputs=2:duration=longest  changzi_17_⾷物在我们体内的旅程.mp3
+
+
+ffmpeg -i changzi_29_自我意识从何而来.mp4 -filter_complex amix=inputs=2:duration=longest  changzi_29_自我意识从何而来.mp3
+ffmpeg -i changzi_30_喧闹的微生物世界.mp4 -filter_complex amix=inputs=2:duration=longest  changzi_30_喧闹的微生物世界.mp3
+ffmpeg -i changzi_31_一个人就是一个生态系统.mp4 -filter_complex amix=inputs=2:duration=longest  changzi_31_一个人就是一个生态系统.mp3
+ffmpeg -i changzi_32_免疫系统和肠道菌群爱恨.mp4 -filter_complex amix=inputs=2:duration=longest  changzi_32_免疫系统和肠道菌群爱恨.mp3
